@@ -29,7 +29,7 @@ def indirme_yap(link, format):
         return False
     
     try:
-        with yt_dlp.YoutunbeDL(ydl_opts) as ydl:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([link])
             print("Indirme basarili!")
             return True

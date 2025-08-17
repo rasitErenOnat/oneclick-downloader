@@ -10,4 +10,5 @@ def link_kontrol(link):
         return False
     else:
         return True
-        
+
+
